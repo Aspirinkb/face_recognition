@@ -53,7 +53,8 @@ python record_one_face.py --name=gaoyan
 该目录下保存了OpenCV中用于人脸检测算法的模型参数，`haarcascade_frontalface_default.xml`在检测人脸的时候会被`cv2.CascadeClassifier()`方法调用，用以创建一个face detector。这些xml文件来自OpenCV项目下的`data./haarcascades/`。你可以在Github上下载OpenCV项目源码。
 
 ### data
-如前面所述，该目录下保存了所有`record_one_face.py`脚本执行后检测到的人脸图像。每个子目录文件夹名为该文件夹下保存的人脸对应的人物名。形式如下：
+如前面所述，该目录下保存了所有`record_one_face.py`脚本执行后检测到的人脸图像。每个子目录文件夹名为该文件夹下保存的人脸对应的人物名。形式如下：   
+
 ./data   
 |------name1/   
 ---------------0.pgm   
