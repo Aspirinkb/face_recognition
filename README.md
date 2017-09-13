@@ -1,4 +1,4 @@
-Face detection and recognize using OpenCV
+Face detection and recognition using OpenCV
 
 ## 概述 (Overview)
 该项目基于OpenCV中的人脸检测(`cv2.CascadeClassifier`)、识别(`cv2.face.createLBPHFaceRecognizer`)方法搭建了一个人脸识别系统。该系统功能包括：
